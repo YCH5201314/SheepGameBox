@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.administrator.sheepgamebox.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton3"
+            android:layout_alignStart="@+id/imageButton3"
+            android:layout_alignTop="@+id/imageButton2"
+            app:srcCompat="@drawable/snake"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="309dp"
+            android:background="#00000000"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="133dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginRight="47dp"
+            app:srcCompat="@drawable/pushbox"
+            android:background="#00000000"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="112dp"
+            app:srcCompat="@drawable/migong"
+            android:background="#00000000"/>
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_alignStart="@+id/imageButton2"
+            android:layout_alignTop="@+id/imageButton3"
+            app:srcCompat="@drawable/plain"
+            android:background="#00000000"/>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
